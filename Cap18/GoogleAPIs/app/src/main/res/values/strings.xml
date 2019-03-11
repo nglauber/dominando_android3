@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Hotéis</string>
+
+    <string name="error_hotel_not_found">Hotel não encontrado</string>
+
+    <string name="action_search">Pesquisar</string>
+    <string name="action_new_hotel">Novo Hotel</string>
+    <string name="action_info">Info</string>
+    <string name="hint_search">Procurar por Hotel</string>
+
+    <string name="about_title">Dominando o Android</string>
+    <string name="about_message">Desenvolvido por nglauber</string>
+    <string name="about_button_site">Site</string>
+
+    <string name="form_label_name">Nome</string>
+    <string name="form_label_address">Endereço</string>
+    <string name="form_label_rating">Classificação</string>
+
+    <string name="error_invalid_hotel">Hotel não preenchido corretamente</string>
+
+    <string name="action_delete">Excluir</string>
+    <plurals name="list_hotel_selected">
+        <item quantity="one">1 selecionado</item>
+        <item quantity="other">%d selecionados</item>
+    </plurals>
+
+    <string name="message_hotels_deleted">%d itens excluídos.</string>
+    <string name="undo">Desfazer</string>
+
+    <string name="action_share">Compartilhar</string>
+    <string name="share_text">Me hospedei no %1$s e o classifiquei em %2$.1f estrelas</string>
+
+    <string name="action_edit">Editar</string>
+
+    <string name="error_sync">Erro ao sincronizar com o servidor.</string>
+
+    <string name="error_login_failed">Falha ao efetuar login</string>
+    <string name="error_play_services_not_supported">Google Play Services não disponível ou não suportado.</string>
+
+    <string name="action_user_profile">Informações do usuário</string>
+    <string name="button_ok">OK</string>
+    <string name="button_logout">Logout</string>
+
+    <string name="notification_text">Lista de Hoteis atualizada!</string>
+
+    <string name="admob_app_id" translatable="false">ca-app-pub-3372465148163943~2969463216</string>
+    <string name="admob_adunit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

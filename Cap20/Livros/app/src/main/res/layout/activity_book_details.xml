@@ -1,0 +1,75 @@
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+                name="book"
+                type="dominando.android.livros.model.Book" />
+    </data>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+            <ImageView
+                android:id="@+id/imgCover"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:background="#CCC"
+                android:scaleType="centerInside"
+                app:imageUrl="@{book.coverUrl}" />
+            <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@{book.title}"
+                    android:textColor="@{book.available ? @color/black : @color/red}"
+                    android:textSize="24sp" />
+            <TextView
+                    android:id="@+id/txtAuthor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{book.author}"
+                    android:textSize="20sp" />
+            <TextView
+                    android:id="@+id/txtPages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{@string/text_format_book_pages(book.pages)}" />
+            <TextView
+                    android:id="@+id/txtYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{@string/text_format_book_year(book.year)}" />
+            <TextView
+                    android:id="@+id/txtPublisher"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{book.publisher.name}" />
+            <TextView
+                    android:id="@+id/txtAvailable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@{book.available ? @string/text_book_available : @string/text_book_unavailable}" />
+            <TextView
+                android:id="@+id/txtMediaType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{book.mediaType}" />
+            <RatingBar
+                    android:id="@+id/rtbRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:isIndicator="true"
+                    android:progressTint="@color/colorAccent"
+                    android:rating="@{book.rating}" />
+        </LinearLayout>
+    </ScrollView>
+</layout>

@@ -1,0 +1,75 @@
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion compile_sdk_version
+    defaultConfig {
+        applicationId "dominando.android.gradle"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/kotlin']
+            res.srcDirs = [
+                    'src/main/res-app/products',
+                    'src/main/res-app/users',
+                    'src/main/res-app/suggestions',
+                    'src/main/res'
+            ]
+            manifest.srcFile 'src/main/manifest/AndroidManifest.xml'
+        }
+        free {
+            java.srcDirs = ['src/free/kotlin']
+        }
+        paid {
+            java.srcDirs = ['src/paid/kotlin']
+        }
+    }
+    flavorDimensions "dominando"
+    productFlavors {
+        paid {
+            dimension "dominando"
+        }
+        free {
+            dimension "dominando"
+        }
+    }
+    signingConfigs {
+        signRelease {
+            storeFile rootProject.file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+        }
+    }
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.signRelease
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(":mylib")
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "androidx.appcompat:appcompat:$appcompat_version"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintlayout_version"
+    testImplementation "junit:junit:$junit_version"
+    androidTestImplementation "androidx.test:runner:$testrunner_version"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espresso_version"
+}

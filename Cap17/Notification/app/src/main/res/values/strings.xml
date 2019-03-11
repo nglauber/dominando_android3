@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Meu App</string>
+    <string name="notif_title">Dominando o Android</string>
+    <string name="notif_text">Essa é uma notificação</string>
+    <string name="notif_big_message">
+        Esse é um exemplo notificação com um texto grande, mas que caberá devido ao estilo
+    </string>
+    <string name="notif_button_action">Ação</string>
+    <string name="notif_reply_label">Responder</string>
+    <string name="notif_reply_hint">Digite a mensagem</string>
+    <string name="notif_reply_replied">Respondido!</string>
+    <string name="notif_channel_name">Padrão</string>
+    <string name="notif_channel_description">Canal padrão de notificações</string>
+    <string name="notif_channel_urgent_name">Urgente</string>
+    <string name="notif_big_inbox_title">Mensagens não lidas:</string>
+    <string name="notif_big_inbox_message">Mensagem %1$d</string>
+    <string name="notif_big_inbox_summary">Clique para exibir</string>
+</resources>
+

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/action_favorites"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/tab_favorites"
+            app:showAsAction="ifRoom" />
+    <item
+            android:id="@+id/action_clock"
+            android:icon="@drawable/ic_access_time"
+            android:title="@string/tab_schedule"
+            app:showAsAction="ifRoom" />
+    <item
+            android:id="@+id/action_people"
+            android:icon="@drawable/ic_people"
+            android:title="@string/tab_people"
+            app:showAsAction="ifRoom" />
+</menu>

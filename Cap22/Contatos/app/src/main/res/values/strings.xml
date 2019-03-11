@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Contatos</string>
+
+    <string name="error_permission">Você precisa aceitar as permissões.</string>
+
+    <string name="hint_name">Nome</string>
+    <string name="hint_address">Endereço</string>
+    <string name="hint_phone">Telefone</string>
+    <string name="dialog_title">Adicionar contato</string>
+    <string name="action_new_contact">Novo contato</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancelar</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Orientação</string>
+    <string name="label_name">Digite o nome</string>
+    <string name="btn_add">Adicionar</string>
+</resources>

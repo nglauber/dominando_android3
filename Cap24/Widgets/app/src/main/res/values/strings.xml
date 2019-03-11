@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Widgets</string>
+
+    <string name="widget_label">Links Favoritos</string>
+    <string name="default_text">Clique para navegar nos favoritos</string>
+
+    <string name="teams_widget_title">Clubes do Brasil</string>
+    <string name="teams_widget_label">Widget de Clubes</string>
+
+</resources>

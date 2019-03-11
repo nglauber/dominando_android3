@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Recycler</string>
+    <string name="hint_title">Título</string>
+    <string name="hint_text">Texto</string>
+</resources>

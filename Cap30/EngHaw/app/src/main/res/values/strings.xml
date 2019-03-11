@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Engenheiros do Hawaii</string>
+    <string name="formation">Formação</string>
+    <string name="songs">Músicas</string>
+
+    <string name="tab_all">Todos os Álbuns</string>
+    <string name="tab_favorites">Favoritos</string>
+
+    <string name="vector_check" translatable="false">M3,13 L7,17 7,17 9,19 9,19 9,19 10,18 10,18 21,7 19,5 9,15 5,11 Z</string>
+    <string name="vector_clear" translatable="false">M4,6 L10,12 4,18 6,20 12,14 18,20 20,18 14,12, 20,6 18,4 12,10 6,4 Z</string>
+</resources>

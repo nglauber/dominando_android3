@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/app_red</item>
+        <item name="buttonStyle">@style/AppButton</item>
+        <item name="radioButtonStyle">@style/AppRadio</item>
+    </style>
+
+    <style name="AppRadio" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/selector_radio</item>
+    </style>
+
+    <style name="AppButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:textColor">@drawable/selector_button_text</item>
+    </style>
+
+    <style name="MyStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/app_white</item>
+        <item name="android:background">@color/app_green</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

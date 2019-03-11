@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Componentes</string>
+    <string name="text_on">Ligado</string>
+    <string name="text_off">Desligado</string>
+    <string name="text_enabled">Habilitado</string>
+    <string name="text_disabled">Desabilitado</string>
+    <string name="text_option1">Opção 1</string>
+    <string name="text_option2">Opção 2</string>
+    <string name="text_option3">Opção 3</string>
+    <string name="btn_show_values">Ver valores</string>
+    <string name="msg_result">%1$s\nProgress: %2$d\nNome: %3$s\nOpção: %4$s</string>
+</resources>

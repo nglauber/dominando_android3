@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Bluetooth</string>
+
+    <string name="action_start_server">Iniciar servidor</string>
+    <string name="action_start_client">Iniciar cliente</string>
+    <string name="msg_error_bt_not_found">Aparelho não suporta Bluetooth</string>
+    <string name="msg_searching_server">Procurando dispositivos…</string>
+    <string name="msg_activate_bluetooth">Você deve ativar o Bluetooth para continuar.</string>
+    <string name="msg_device_invisible">Para iniciar o servidor, seu aparelho deve estar visível.</string>
+    <string name="devices_found">Aparelhos encontrados</string>
+    <string name="msg_server">Aguardando por conexões…</string>
+    <string name="msg_disconnected">Desconectou</string>
+    <string name="my_message">Eu: %s</string>
+    <string name="msg_no_devices_found">Nenhum dispositivo encontrado</string>
+    <string name="msg_connected">Conectado!</string>
+
+</resources>

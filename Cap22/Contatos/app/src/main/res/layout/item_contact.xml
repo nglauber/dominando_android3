@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:orientation="horizontal">
+    <QuickContactBadge
+            android:id="@+id/qcbPhoto"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:scaleType="centerCrop" />
+    <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="8dp" />
+</LinearLayout>

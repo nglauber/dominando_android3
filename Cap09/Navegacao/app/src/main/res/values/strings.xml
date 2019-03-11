@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Navegacao</string>
+
+    <string name="option_tab">Abas</string>
+    <string name="option_bottom">Bottom</string>
+    <string name="option_pager">View Pager</string>
+    <string name="tab_favorites">Favoritos</string>
+    <string name="tab_schedule">Agendamentos</string>
+    <string name="tab_people">Pessoas</string>
+    <string-array name="sections">
+        <item>Seção 1</item>
+        <item>Seção 2</item>
+        <item>Seção 3</item>
+    </string-array>
+
+</resources>

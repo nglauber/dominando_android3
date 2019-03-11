@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Basico</string>
+    <string name="main_button_toast">Exibir toast</string>
+    <string name="main_button_tela2">Tela 2</string>
+    <string name="main_button_parcel">Parcelable via Intent</string>
+    <string name="main_button_serializable">Serializable via Intent</string>
+
+    <string name="tela2_texto1">Nome: %1$s / Código: %2$d</string>
+    <string name="tela2_texto2">Nome: %1$s / Idade: %2$d</string>
+
+</resources>

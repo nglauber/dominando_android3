@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mapas</string>
+    <string name="map_error_get_current_location">Erro ao obter a localização atual.</string>
+    <string name="map_error_permissions">Você deve aceitar as permissões para executar a aplicação.</string>
+    <string name="map_error_gps_disabled">É necessário habilitar a configuração de localização para utilizar o aplicativo.</string>
+    <string name="map_error_gps_settings">Não é possível habilitar a localização</string>
+    <string name="map_title_address_result_dialog">Selecione o destino</string>
+    <string name="map_msg_search_address">Buscando endereço…</string>
+    <string name="map_marker_origin">Origem</string>
+    <string name="map_marker_destination">Destino</string>
+    <string name="map_current_location">Local atual</string>
+    <string name="map_msg_search_route">Traçando rota…</string>
+</resources>

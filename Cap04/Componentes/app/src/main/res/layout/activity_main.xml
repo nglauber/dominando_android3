@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+              tools:context="dominando.android.componentes.MainActivity">
+    <CheckBox
+            android:id="@+id/chkEnabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_enabled" />
+    <ToggleButton
+            android:id="@+id/tgbEnabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOff="@string/text_off"
+            android:textOn="@string/text_on" />
+    <Switch
+            android:id="@+id/swtEnabled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/text_on"
+            android:textOff="@string/text_off"
+            android:textOn="@string/text_on" />
+    <SeekBar
+            android:id="@+id/skbValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="30" />
+    <TextView
+            android:id="@+id/txtValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="0" />
+    <Spinner
+            android:id="@+id/spnNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dialog" />
+    <RadioGroup
+            android:id="@+id/rgOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+                android:id="@+id/rbOption1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_option1" />
+        <RadioButton
+                android:id="@+id/rbOption2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/text_option2" />
+        <RadioButton
+                android:id="@+id/rbOption3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_option3" />
+    </RadioGroup>
+    <Button
+            android:id="@+id/btnShowValues"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:drawableStart="@drawable/ic_check"
+            android:drawablePadding="8dp"
+            android:text="@string/btn_show_values" />
+</LinearLayout>

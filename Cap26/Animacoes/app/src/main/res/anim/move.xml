@@ -1,0 +1,8 @@
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+           android:repeatCount="1"
+           android:repeatMode="reverse"
+           android:duration="1000"
+           android:fromXDelta="0"
+           android:fromYDelta="0"
+           android:toXDelta="100%"
+           android:toYDelta="200%" />

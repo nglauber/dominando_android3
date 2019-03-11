@@ -1,0 +1,18 @@
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+               android:transitionOrdering="sequential">
+    <changeBounds />
+    <transitionSet android:transitionOrdering="together">
+        <slide android:slideEdge="start">
+            <targets>
+                <target android:targetId="@+id/txtName"/>
+                <target android:targetId="@+id/edtName"/>
+            </targets>
+        </slide>
+        <slide android:slideEdge="end">
+            <targets>
+                <target android:targetId="@+id/txtEmail"/>
+                <target android:targetId="@+id/edtEmail"/>
+            </targets>
+        </slide>
+    </transitionSet>
+</transitionSet>

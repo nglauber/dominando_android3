@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Persistencia</string>
+
+    <string name="message_permission_requested">Você tem q habilitar essa permissão para ler ou salvar o arquivo.
+    </string>
+    <string name="permission_granted">Permissão concedida</string>
+    <string name="permission_denied">Permissão negada</string>
+
+    <string name="pref_city" translatable="false">city</string>
+    <string name="pref_messages" translatable="false">mensagens</string>
+    <string name="pref_social_network" translatable="false">rede_social</string>
+    <string name="title_city">Cidade</string>
+    <string name="pref_city_default">Recife</string>
+    <string name="title_messages">Receber mensagens</string>
+    <string name="summary_messages">Aplicação deve receber mensagens</string>
+    <string name="title_social_network">Rede social</string>
+    <string name="pref_social_network_default">gplus</string>
+    <string-array name="social_networks">
+        <item>Google +</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>LinkedIn</item>
+    </string-array>
+    <string-array name="social_networks_values">
+        <item>gplus</item>
+        <item>fb</item>
+        <item>twitter</item>
+        <item>linkedin</item>
+    </string-array>
+
+</resources>

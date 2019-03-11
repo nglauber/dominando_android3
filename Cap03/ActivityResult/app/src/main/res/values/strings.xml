@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ActivityResult</string>
+    <string name="label_select_state">Selecione um estado</string>
+    <string name="title_activity_selection">Lista de estados</string>
+    <string-array name="states">
+        <item>Alagoas</item>
+        <item>Bahia</item>
+        <item>Ceará</item>
+        <item>Maranhão</item>
+        <item>Paraíba</item>
+        <item>Pernambuco</item>
+        <item>Piauí</item>
+        <item>Sergipe</item>
+        <item>Rio Grande do Norte</item>
+    </string-array>
+</resources>

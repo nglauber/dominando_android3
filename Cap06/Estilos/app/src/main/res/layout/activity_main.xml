@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="16dp"
+              android:orientation="vertical">
+    <TextView
+            android:text="Um Texto qualquer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/balao"/>
+    <TextView
+            android:text="Outro texto com\n duas quebras\nde linha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/balao"/>
+    <TextView
+            android:text="Texto usando match_parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/balao"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="TextView com Estilo"
+              style="@style/MyStyle"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Botão 1"
+                android:id="@+id/button"/>
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Botão 2"
+                android:id="@+id/button2"/>
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Botão 3"
+                android:enabled="false"
+                android:id="@+id/button3"/>
+    </LinearLayout>
+
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:id="@+id/rb1"
+                android:text="Opção 1"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb2"
+                android:text="Opção 2"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rb3"
+                android:text="Opção 3"/>
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spnAnimations"
+            android:entries="@array/view_animations"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spnInterpolators"
+            android:entries="@array/interpolators"/>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#F0F0FF"
+            android:layout_weight="1">
+        <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imgBazinga"
+                android:layout_gravity="center"
+                android:src="@drawable/bazinga" />
+    </FrameLayout>
+    <Button
+            android:id="@+id/btnPlay"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Play!" />
+</LinearLayout>

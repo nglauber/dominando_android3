@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+              tools:context=".MainActivity">
+    <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <TextView
+            android:id="@+id/txtOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <Button
+            android:id="@+id/btnOneTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="One time" />
+    <Button
+            android:id="@+id/btnPeriodic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Periodic" />
+    <Button
+            android:id="@+id/btnStop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stop" />
+</LinearLayout>

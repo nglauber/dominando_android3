@@ -1,0 +1,20 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <fragment android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:name="dominando.android.fragments.HotelListFragment"
+              android:id="@+id/fragmentList"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:tint="@android:color/white"
+            app:srcCompat="@drawable/ic_add"
+            app:fabSize="normal"
+            app:borderWidth="0dp"
+            android:layout_gravity="bottom|end"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="dominando.android.widgets">
+
+    <application android:allowBackup="true"
+                 android:label="@string/app_name"
+                 android:icon="@mipmap/ic_launcher"
+                 android:roundIcon="@mipmap/ic_launcher_round"
+                 android:supportsRtl="true"
+                 android:theme="@style/AppTheme">
+        <receiver
+                android:name=".FavoritesWidget"
+                android:label="@string/widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                    android:name="android.appwidget.provider"
+                    android:resource="@xml/favorites_widget" />
+        </receiver>
+        <receiver android:name=".FavoritesReceiver"/>
+
+        <receiver android:name=".TeamWidget"
+                  android:label="@string/teams_widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                    android:name="android.appwidget.provider"
+                    android:resource="@xml/teams_widget" />
+        </receiver>
+        <service
+                android:name=".TeamService"
+                android:exported="false"
+                android:permission="android.permission.BIND_REMOTEVIEWS" />
+    </application>
+</manifest>

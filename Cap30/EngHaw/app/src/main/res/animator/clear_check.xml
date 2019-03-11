@@ -1,0 +1,8 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+            android:duration="200"
+            android:propertyName="pathData"
+            android:valueFrom="@string/vector_clear"
+            android:valueTo="@string/vector_check"
+            android:valueType="pathType"/>
+</set>

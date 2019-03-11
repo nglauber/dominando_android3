@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string-array name="intent_actions">
+        <item>Browser</item>
+        <item>Realizando uma chamada</item>
+        <item>Mapa</item>
+        <item>SMS</item>
+        <item>Compartilhar</item>
+        <item>Alarme</item>
+        <item>Buscar na web</item>
+        <item>Configurações</item>
+        <item>Minha ação 1</item>
+        <item>Minha ação 2</item>
+        <item>Sair</item>
+    </string-array>
+    <string name="error_intent">Ação não suportada.</string>
+    <string name="custom_action1">Ação customizada 1.</string>
+    <string name="custom_action2">Ação customizada 2.\nUri: %1$s\nHost:%2$s \nPath: %3$s</string>
+
+</resources>

@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<novatec>
+   <categorias>
+      <categoria>
+         <categoria>Aplicativos</categoria>
+         <livros>
+            <livro>
+               <ano>2013</ano>
+               <autor>Robson Santos da Silva</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223505.jpg</capa>
+               <paginas>168</paginas>
+               <titulo>MOODLE 2 para Autores e Tutores - 3ª Edição</titulo>
+            </livro>
+         </livros>
+      </categoria>
+      <categoria>
+         <categoria>Banco de dados</categoria>
+         <livros>
+            <livro>
+               <ano>2013</ano>
+               <autor>Pramod J. Sadalage / Martin Fowler</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223383.jpg</capa>
+               <paginas>216</paginas>
+               <titulo>NoSQL Essencial</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Michael Schmalz</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223154.jpg</capa>
+               <paginas>120</paginas>
+               <titulo>Fundamentos de Bancos de Dados com C#</titulo>
+            </livro>
+         </livros>
+      </categoria>
+      <categoria>
+         <categoria>Desenvolvimento Pessoal</categoria>
+         <livros>
+            <livro>
+               <ano>2013</ano>
+               <autor>Juliano Niederauer</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223642.jpg</capa>
+               <paginas>192</paginas>
+               <titulo>Jovem e Bem-Sucedido</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Jonathan Fields</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223109.jpg</capa>
+               <paginas>208</paginas>
+               <titulo>Lidando com a Incerteza</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Brian W. Fitzpatrick / Ben Collins-Sussman</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223291.jpg</capa>
+               <paginas>208</paginas>
+               <titulo>Equipes de Software</titulo>
+            </livro>
+         </livros>
+      </categoria>
+      <categoria>
+         <categoria>Eletrônica</categoria>
+         <livros>
+            <livro>
+               <ano>2013</ano>
+               <autor>Martin Evans / Joshua Noble / Jordan Hochenbaum</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223734.jpg</capa>
+               <paginas>424</paginas>
+               <titulo>Arduino em Ação</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Eben Upton / Gareth Halfacree</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223512.jpg</capa>
+               <paginas>272</paginas>
+               <titulo>Raspberry Pi – Manual do Usuário</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Simon Monk</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223574.jpg</capa>
+               <paginas>192</paginas>
+               <titulo>Programando o Raspberry Pi</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Matt Richardson / Shawn Wallace</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223451.jpg</capa>
+               <paginas>192</paginas>
+               <titulo>Primeiros Passos com o Raspberry Pi</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Chris Walker</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223055.jpg</capa>
+               <paginas>120</paginas>
+               <titulo>Primeiros Passos com o Netduino</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Massimo Banzi</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222904.jpg</capa>
+               <paginas>152</paginas>
+               <titulo>Primeiros Passos com o Arduino</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Michael McRoberts</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222744.jpg</capa>
+               <paginas>456</paginas>
+               <titulo>Arduino Básico</titulo>
+            </livro>
+         </livros>
+      </categoria>
+      <categoria>
+         <categoria>Finanças</categoria>
+         <livros>
+            <livro>
+               <ano>2012</ano>
+               <autor>Murillo Lo Visco</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223017.jpg</capa>
+               <paginas>304</paginas>
+               <titulo>Imposto de Renda no Mercado de Ações</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Newton Linchen / Tarcísio S. Peres</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222881.jpg</capa>
+               <paginas>208</paginas>
+               <titulo>Lucrando com os Tubarões</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Edgar Gomes de Abreu</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222713.jpg</capa>
+               <paginas>320</paginas>
+               <titulo>Certificação Anbid CPA-20 - 2ª Edição Revisada e Ampliada</titulo>
+            </livro>
+         </livros>
+      </categoria>
+      <categoria>
+         <categoria>Internet</categoria>
+         <livros>
+            <livro>
+               <ano>2013</ano>
+               <autor>Juliano Niederauer</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223864.jpg</capa>
+               <paginas>528</paginas>
+               <titulo>PHP para quem conhece PHP - 4ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Maurício Samy Silva</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223215.jpg</capa>
+               <paginas>224</paginas>
+               <titulo>Fundamentos da SVG</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Maurício Samy Silva</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222898.jpg</capa>
+               <paginas>496</paginas>
+               <titulo>CSS3</titulo>
+            </livro>
+         </livros>
+      </categoria>
+      <categoria>
+         <categoria>Jogos</categoria>
+         <livros>
+            <livro>
+               <ano>2011</ano>
+               <autor>Allan Brito</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222805.jpg</capa>
+               <paginas>368</paginas>
+               <titulo>Blender 3D - Jogos e Animações Interativas</titulo>
+            </livro>
+         </livros>
+      </categoria>
+      <categoria>
+         <categoria>Marketing</categoria>
+         <livros>
+            <livro>
+               <ano>2013</ano>
+               <autor>Gilberto Musto</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223802.jpg</capa>
+               <paginas>192</paginas>
+               <titulo>Mapa do Voto - Como Ganhar sua Próxima Eleição - 2ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Lilian S. Gonçalves</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223710.jpg</capa>
+               <paginas>192</paginas>
+               <titulo>Neuromarketing Aplicado à Redação Publicitária</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Michelle Accardi-Petersen</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222683.jpg</capa>
+               <paginas>264</paginas>
+               <titulo>Marketing Ágil</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>DJ Waldow / Jason Falls</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223390.jpg</capa>
+               <paginas>304</paginas>
+               <titulo>Guia Definitivo de Email Marketing</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Eric Enge / Stephan Spencer / Rand Fishkin / Jessie C. Stricchiola</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223086.jpg</capa>
+               <paginas>752</paginas>
+               <titulo>A Arte de SEO - 2ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Clay Johnson</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222775.jpg</capa>
+               <paginas>192</paginas>
+               <titulo>A Dieta da Informação</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Martha Gabriel</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223048.jpg</capa>
+               <paginas>248</paginas>
+               <titulo>SEM e SEO - Dominando o Marketing de Busca - 2ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Conrado Adolpho</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222751.jpg</capa>
+               <paginas>904</paginas>
+               <titulo>Os 8 Ps do Marketing Digital</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Carolina Lima</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222737.jpg</capa>
+               <paginas>160</paginas>
+               <titulo>Como Acabar com sua #empresa em Apenas 140 Caracteres</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Khalid Saleh / Ayat Shukairy</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222645.jpg</capa>
+               <paginas>280</paginas>
+               <titulo>Otimização de Conversão</titulo>
+            </livro>
+         </livros>
+      </categoria>
+      <categoria>
+         <categoria>Negócios</categoria>
+         <livros>
+            <livro>
+               <ano>2013</ano>
+               <autor>Dave Gray / Thomas Vander Wal</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223345.jpg</capa>
+               <paginas>360</paginas>
+               <titulo>A Empresa Conectada</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Martin Klubeck</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222980.jpg</capa>
+               <paginas>368</paginas>
+               <titulo>Métricas</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Bart Gerardi</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222997.jpg</capa>
+               <paginas>272</paginas>
+               <titulo>Gerenciamento de Projetos Sem Crise</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Rubem Melendez Filho</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222690.jpg</capa>
+               <paginas>376</paginas>
+               <titulo>Service Desk Corporativo</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Matthew A. Russell</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222454.jpg</capa>
+               <paginas>360</paginas>
+               <titulo>Mineração de Dados da Web Social</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Paulo Strelczuk</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222553.jpg</capa>
+               <paginas>224</paginas>
+               <titulo>Como saber se um negócio é bom (Antes de fazer negócio)</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Roberto Cohen</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222768.jpg</capa>
+               <paginas>296</paginas>
+               <titulo>Gestão de Help Desk e Service Desk</titulo>
+            </livro>
+            <livro>
+               <ano>2014</ano>
+               <autor>André Milani</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223949.jpg</capa>
+               <paginas>472</paginas>
+               <titulo>Programando para iPhone e iPad - 2ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2014</ano>
+               <autor>Ricardo R. Lecheta</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223932.jpg</capa>
+               <paginas>504</paginas>
+               <titulo>AWS para Desenvolvedores</titulo>
+            </livro>
+            <livro>
+               <ano>2014</ano>
+               <autor>André Gugliotti</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223963.jpg</capa>
+               <paginas>208</paginas>
+               <titulo>Temas em Magento</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Maurício Samy Silva</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223871.jpg</capa>
+               <paginas>544</paginas>
+               <titulo>jQuery - A Biblioteca do Programador JavaScript - 3ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Peter Jandl Junior</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223703.jpg</capa>
+               <paginas>640</paginas>
+               <titulo>Java Guia do Programador - 2ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Luiz Carlos Querino Filho</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223789.jpg</capa>
+               <paginas>248</paginas>
+               <titulo>Desenvolvendo seu Primeiro Aplicativo Android</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Ricardo R. Lecheta</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223840.jpg</capa>
+               <paginas>784</paginas>
+               <titulo>Desenvolvendo para iPhone e iPad - 2ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>David Beazley / Brian K. Jones</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223321.jpg</capa>
+               <paginas>720</paginas>
+               <titulo>Python Cookbook</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Richard E. Silverman</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223796.jpg</capa>
+               <paginas>208</paginas>
+               <titulo>Git - Guia Prático</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Cesar Brod</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223499.jpg</capa>
+               <paginas>288</paginas>
+               <titulo>Aprenda a Programar</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Keith Wood</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223833.jpg</capa>
+               <paginas>424</paginas>
+               <titulo>Estendendo a jQuery</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Alfredo Lotar</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223819.jpg</capa>
+               <paginas>328</paginas>
+               <titulo>Como Melhorar a Performance de Websites .NET</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Maurício Samy Silva</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223826.jpg</capa>
+               <paginas>384</paginas>
+               <titulo>jQuery Mobile - 2ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Flávio Gomes da Silva Lisboa</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223659.jpg</capa>
+               <paginas>374</paginas>
+               <titulo>Zend Framework Componentes Poderosos para PHP - 2ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Greg Nudelman</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223581.jpg</capa>
+               <paginas>456</paginas>
+               <titulo>Padrões de Projeto para o Android</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Ben Vinegar / Anton Kovalyov</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223727.jpg</capa>
+               <paginas>384</paginas>
+               <titulo>JavaScript Remoto</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Juliano Niederauer</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223277.jpg</capa>
+               <paginas>304</paginas>
+               <titulo>Web Interativa com Ajax e PHP – 2ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Ricardo R. Lecheta</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223628.jpg</capa>
+               <paginas>624</paginas>
+               <titulo>Desenvolvendo para Windows 8</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Alasdair Allan</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223635.jpg</capa>
+               <paginas>448</paginas>
+               <titulo>Aprendendo Programação iOS</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Daniel Schmitz</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223604.jpg</capa>
+               <paginas>152</paginas>
+               <titulo>Criando Sistemas RESTful com PHP e jQuery</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Lorna Jane Mitchell</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223697.jpg</capa>
+               <paginas>136</paginas>
+               <titulo>Web Services em PHP</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Hélio Engholm Jr.</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223406.jpg</capa>
+               <paginas>376</paginas>
+               <titulo>Análise e Design Orientados a Objetos</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Travis Lowdermilk</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223666.jpg</capa>
+               <paginas>184</paginas>
+               <titulo>Design Centrado no Usuário</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>William Sanders</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223437.jpg</capa>
+               <paginas>368</paginas>
+               <titulo>Aprendendo Padrões de Projeto em PHP</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Dave Taylor</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223598.jpg</capa>
+               <paginas>272</paginas>
+               <titulo>Aprendendo Unix no OS X Mountain Lion</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>John Resig / Bear Bibeault</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223284.jpg</capa>
+               <paginas>488</paginas>
+               <titulo>Segredos do Ninja JavaScript</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Paris Buttfield-Addison / Jonathon Manning</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223420.jpg</capa>
+               <paginas>368</paginas>
+               <titulo>Aprendendo Cocoa com Objective-C</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>André Gugliotti</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223482.jpg</capa>
+               <paginas>240</paginas>
+               <titulo>Lojas Virtuais com Magento</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Ricardo R. Lecheta</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223444.jpg</capa>
+               <paginas>824</paginas>
+               <titulo>Google Android - 3ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Luiz Carlos Querino Filho</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223178.jpg</capa>
+               <paginas>472</paginas>
+               <titulo>Criando Aplicativos para iPhone e iPad</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Pablo Dall´Oglio</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223529.jpg</capa>
+               <paginas>408</paginas>
+               <titulo>Criando Relatórios com PHP - 2ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Mike Wilson</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223413.jpg</capa>
+               <paginas>240</paginas>
+               <titulo>Construindo Aplicações Node com MongoDB e Backbone</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Flávio Gomes da Silva Lisboa</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223062.jpg</capa>
+               <paginas>304</paginas>
+               <titulo>Criando Aplicações PHP com Zend e Dojo - 2ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Jonathan Stark / Brian Jepson</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223253.jpg</capa>
+               <paginas>200</paginas>
+               <titulo>Construindo Aplicativos Android com HTML, CSS e JavaScript</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Ademir Cristiano Gabardo</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223338.jpg</capa>
+               <paginas>288</paginas>
+               <titulo>PHP e MVC com CodeIgniter</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Aurelio Marinho Jargas</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223376.jpg</capa>
+               <paginas>224</paginas>
+               <titulo>Expressões Regulares – Uma Abordagem Divertida - 4ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Ian F. Darwin</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223239.jpg</capa>
+               <paginas>672</paginas>
+               <titulo>Android Cookbook</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Michael Fitzgerald</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223307.jpg</capa>
+               <paginas>160</paginas>
+               <titulo>Introdução às Expressões Regulares</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Dean Wampler</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223161.jpg</capa>
+               <paginas>112</paginas>
+               <titulo>Programação Funcional para Desenvolvedores Java</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Greg Shackles</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223222.jpg</capa>
+               <paginas>200</paginas>
+               <titulo>Construindo Aplicativos Móveis com C#</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Joshua Marinacci</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223147.jpg</capa>
+               <paginas>104</paginas>
+               <titulo>Construindo Aplicativos Móveis com Java</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Rodrigo Urubatan</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223246.jpg</capa>
+               <paginas>336</paginas>
+               <titulo>Ruby on Rails - 2ª Edição Revisada e Ampliada</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Theresa Neil</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223192.jpg</capa>
+               <paginas>208</paginas>
+               <titulo>Padrões de Design para Aplicativos Móveis</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Pablo Dall´Oglio</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223093.jpg</capa>
+               <paginas>400</paginas>
+               <titulo>PHP-GTK - 3ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Maurício Samy Silva</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222966.jpg</capa>
+               <paginas>736</paginas>
+               <titulo>jQuery UI</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Fabio Perez Marzullo</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222973.jpg</capa>
+               <paginas>272</paginas>
+               <titulo>iPhone na Prática</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Christopher K. Fairbairn / Johannes Fahrenkrug / Collin Ruffenach</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222911.jpg</capa>
+               <paginas>400</paginas>
+               <titulo>Objective-C Fundamental</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Dustin Boswell / Trevor Foucher</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222942.jpg</capa>
+               <paginas>212</paginas>
+               <titulo>A Arte de Escrever Programas Legíveis</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Ricardo R. Lecheta</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222928.jpg</capa>
+               <paginas>448</paginas>
+               <titulo>Google Android para Tablets</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Douglas Rocha Mendes</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222621.jpg</capa>
+               <paginas>496</paginas>
+               <titulo>Programação Java em Ambiente Distribuído</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Maurício Samy Silva</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222614.jpg</capa>
+               <paginas>320</paginas>
+               <titulo>HTML5 - A Linguagem de Marcação que Revolucionou a Web</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Jan Goyvaerts / Steven Levithan</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222799.jpg</capa>
+               <paginas>560</paginas>
+               <titulo>Expressões Regulares Cookbook</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Juliano Niederauer</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222348.jpg</capa>
+               <paginas>304</paginas>
+               <titulo>Desenvolvendo Websites com PHP - 2ª Edição</titulo>
+            </livro>
+         </livros>
+      </categoria>
+      <categoria>
+         <categoria>Redes</categoria>
+         <livros>
+            <livro>
+               <ano>2013</ano>
+               <autor>Samuel Henrique Bucke Brito</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223741.jpg</capa>
+               <paginas>208</paginas>
+               <titulo>IPv6 - O Novo Protocolo da Internet</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>João Eriberto Mota Filho</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223758.jpg</capa>
+               <paginas>416</paginas>
+               <titulo>Análise de Tráfego em Redes TCP/IP</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Samuel Henrique Bucke Brito</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223260.jpg</capa>
+               <paginas>160</paginas>
+               <titulo>Laboratórios de Tecnologias Cisco em Infraestrutura de Redes</titulo>
+            </livro>
+         </livros>
+      </categoria>
+      <categoria>
+         <categoria>Segurança</categoria>
+         <livros>
+            <livro>
+               <ano>2014</ano>
+               <autor>James Broad / Andrew Bindner</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223956.jpg</capa>
+               <paginas>288</paginas>
+               <titulo>Hacking com Kali Linux</titulo>
+            </livro>
+            <livro>
+               <ano>2014</ano>
+               <autor>Patrick Engebretson</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223901.jpg</capa>
+               <paginas>304</paginas>
+               <titulo>Introdução ao Hacking e aos Testes de Invasão</titulo>
+            </livro>
+            <livro>
+               <ano>2014</ano>
+               <autor>Josh Pauli</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223918.jpg</capa>
+               <paginas>224</paginas>
+               <titulo>Introdução ao Web Hacking</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Robert Shimonski</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223888.jpg</capa>
+               <paginas>168</paginas>
+               <titulo>Wireshark Guia Prático</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Ricardo Kléber M. Galvão</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223079.jpg</capa>
+               <paginas>152</paginas>
+               <titulo>Introdução à Análise Forense em Redes de Computadores</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>John Mutch / Brian Anderson</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223000.jpg</capa>
+               <paginas>224</paginas>
+               <titulo>Gerenciando Privilégios em Tecnologia da Informação</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Jeff Six</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223130.jpg</capa>
+               <paginas>144</paginas>
+               <titulo>Segurança de Aplicativos Android</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Nelson Murilo de O. Rufino</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222430.jpg</capa>
+               <paginas>240</paginas>
+               <titulo>Segurança em Redes sem Fio - 3ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Pedro Monteiro da Silva Eleutério / Marcio Pereira Machado</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222607.jpg</capa>
+               <paginas>200</paginas>
+               <titulo>Desvendando a Computação Forense</titulo>
+            </livro>
+         </livros>
+      </categoria>
+      <categoria>
+         <categoria>Softwares</categoria>
+         <livros>
+            <livro>
+               <ano>2013</ano>
+               <autor>Júlio César Scheiffer Saleh</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223536.jpg</capa>
+               <paginas>176</paginas>
+               <titulo>Relatórios Avançados com Excel 2013</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Cesar Brod</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223765.jpg</capa>
+               <paginas>192</paginas>
+               <titulo>Scrum Guia Prático para Projetos Ágeis</titulo>
+            </livro>
+            <livro>
+               <ano>2013</ano>
+               <autor>Chris Vander Mey</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223314.jpg</capa>
+               <paginas>264</paginas>
+               <titulo>Lançamento de Software</titulo>
+            </livro>
+            <livro>
+               <ano>2012</ano>
+               <autor>Max Kanat-Alexander</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223024.jpg</capa>
+               <paginas>112</paginas>
+               <titulo>As Leis Fundamentais do Projeto de Software</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Andrew Pham / Phuong-Van Pham</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222850.jpg</capa>
+               <paginas>288</paginas>
+               <titulo>Scrum em Ação</titulo>
+            </livro>
+         </livros>
+      </categoria>
+      <categoria>
+         <categoria>Sistemas Operacionais</categoria>
+         <livros>
+            <livro>
+               <ano>2012</ano>
+               <autor>João Eriberto Mota Filho</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222782.jpg</capa>
+               <paginas>928</paginas>
+               <titulo>Descobrindo o Linux - 3ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2014</ano>
+               <autor>Gilleanes T. A. Guedes</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223857.jpg</capa>
+               <paginas>192</paginas>
+               <titulo>UML 2 – Guia Prático - 2ª Edição</titulo>
+            </livro>
+            <livro>
+               <ano>2014</ano>
+               <autor>Wilson Moraes Góes</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575223468.jpg</capa>
+               <paginas>288</paginas>
+               <titulo>Aprenda UML por Meio de Estudos de Caso</titulo>
+            </livro>
+            <livro>
+               <ano>2011</ano>
+               <autor>Gilleanes T. A. Guedes</autor>
+               <capa>https://s3.novatec.com.br/capas/9788575222812.jpg</capa>
+               <paginas>488</paginas>
+               <titulo>UML 2 - Uma Abordagem Prática - 2ª Edição</titulo>
+            </livro>
+         </livros>
+      </categoria>
+   </categorias>
+</novatec>

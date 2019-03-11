@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="150dp"
+             android:background="?attr/colorAccent"
+             android:padding="16dp">
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+</FrameLayout>

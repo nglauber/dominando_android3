@@ -1,0 +1,12 @@
+<resources>
+    <array name="bg_colors">
+        <item>#FFCDD2</item>
+        <item>#B2DFDB</item>
+        <item>#BBDEFB</item>
+    </array>
+    <array name="text_colors">
+        <item>#F44336</item>
+        <item>#4CAF50</item>
+        <item>#03A9F4</item>
+    </array>
+</resources>

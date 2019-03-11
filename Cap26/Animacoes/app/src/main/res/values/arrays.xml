@@ -1,0 +1,34 @@
+<resources>
+
+    <string-array name="view_animations">
+        <item>AlphaAnimation</item>
+        <item>RotateAnimation</item>
+        <item>ScaleAnimation</item>
+        <item>TranslateAnimation</item>
+        <item>AnimationSet</item>
+    </string-array>
+
+    <string-array name="interpolators">
+        <item>AccelerateDecelerateInterpolator</item>
+        <item>AccelerateInterpolator</item>
+        <item>AnticipateInterpolator</item>
+        <item>AnticipateOvershootInterpolator</item>
+        <item>BounceInterpolator</item>
+        <item>CycleInterpolator</item>
+        <item>DecelerateInterpolator</item>
+        <item>FastOutLinearInInterpolator</item>
+        <item>FastOutSlowInInterpolator</item>
+        <item>LinearOutSlowInInterpolator</item>
+        <item>LinearInterpolator</item>
+        <item>OvershootInterpolator</item>
+    </string-array>
+
+    <string-array name="animators">
+        <item>AlphaAnimator</item>
+        <item>RotateAnimator</item>
+        <item>ScaleAnimator</item>
+        <item>TranslateAnimator</item>
+        <item>AnimatorSet</item>
+    </string-array>
+
+</resources>

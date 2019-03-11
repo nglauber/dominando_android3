@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HTTP</string>
+    <string name="error_no_connection">Sem conexão</string>
+    <string name="error_load_books">Falha ao obter lista de livros</string>
+    <string name="message_progress">Baixando informações dos livros…</string>
+    <string name="n_paginas">%d páginas</string>
+</resources>

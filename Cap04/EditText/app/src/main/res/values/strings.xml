@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EditText</string>
+    <string name="hint_name">Nome</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_cep">C.E.P.</string>
+    <string name="msg_error_name">O campo nome é obrigatório</string>
+    <string name="msg_error_email">Email inválido</string>
+    <string name="msg_error_password">Senha inválida</string>
+    <string name="msg_success">Usuário %1$s com email %2$s cadastrado com sucesso!</string>
+</resources>

@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity">
+    <Button
+            android:id="@+id/btnSimple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simples" />
+    <Button
+            android:id="@+id/btnTapAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap Action" />
+    <Button
+            android:id="@+id/btnBigText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Big Text" />
+    <Button
+            android:id="@+id/btnActionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button Action" />
+    <Button
+            android:id="@+id/btnDirectReply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Direct Reply" />
+    <Button
+            android:id="@+id/btnInbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inbox" />
+    <Button
+            android:id="@+id/btnHeadsUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Heads up" />
+</LinearLayout>

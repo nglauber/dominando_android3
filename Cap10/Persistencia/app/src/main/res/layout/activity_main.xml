@@ -1,0 +1,83 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+    <EditText
+            android:id="@+id/edtText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    <RadioGroup
+            android:id="@+id/rgType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtText">
+        <RadioButton
+                android:id="@+id/rbInternal"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memória Interna" />
+        <RadioButton
+                android:id="@+id/rbExternalPriv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memória Externa (Privado)" />
+        <RadioButton
+                android:id="@+id/rbExternalPublic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memória Externa (Pública)" />
+    </RadioGroup>
+    <Button
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Salvar"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnRead"
+            app:layout_constraintEnd_toStartOf="@+id/btnRead"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent" />
+    <Button
+            android:id="@+id/btnRead"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ler"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnSave"
+            app:layout_constraintTop_toBottomOf="@+id/rgType" />
+    <TextView
+            android:id="@+id/txtText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnSave" />
+
+    <Button
+            android:id="@+id/btnOpenPref"
+            android:text="Abrir Preferências"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnReadPref"
+            app:layout_constraintEnd_toStartOf="@+id/btnReadPref"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent" />
+    <Button
+            android:id="@+id/btnReadPref"
+            android:text="Ler Preferências"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnOpenPref"
+            app:layout_constraintTop_toBottomOf="@+id/txtText"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
