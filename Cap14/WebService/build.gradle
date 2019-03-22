@@ -14,8 +14,7 @@ buildscript {
         retrofit_version = '2.5.0'
         room_version = '2.0.0'
         testrunner_version = '1.1.1'
-        workmanager_version = '1.0.0-beta05'
-        workmanager_fb_version = '1.0.0-alpha11'
+        workmanager_version = '2.0.0'
     }
 
     repositories {
