@@ -5,7 +5,7 @@ Esse livro é uma atualização do [Dominando o Android](https://novatec.com.br/
 
 ## Onde comprar?
 
-A versão impressa desta obra está disponível no formato impresso no [site da Novatec](https://novatec.com.br/livros/dominando-android-kotlin/) e nas melhores livrarias.
+A versão impressa desta obra está disponível no [site da Novatec](https://novatec.com.br/livros/dominando-android-kotlin/) e nas melhores livrarias.
 O livro também está disponível no formato digital no [Google Play](https://play.google.com/store/books/details/Nelson_Glauber_Dominando_o_Android_com_Kotlin?id=ChuMDwAAQBAJ), na [Amazon](https://www.amazon.com.br/dp/8575227262/ref=cm_sw_r_cp_ep_dp_A0MHCbQ0XK9C2) e no iBooks.
 
 
