@@ -5,8 +5,8 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
-import android.preference.PreferenceManager
 import android.widget.RemoteViews
+import androidx.preference.PreferenceManager
 
 class FavoritesReceiver : BroadcastReceiver() {
     private val sites = arrayOf(
