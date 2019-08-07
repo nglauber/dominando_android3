@@ -138,10 +138,11 @@ class MainActivity : AppCompatActivity() {
     private fun showDiscoveredDevices(devices: List<BluetoothDevice>) {
         hideProgress()
         if (devices.isNotEmpty()) {
-            val devicesFound = arrayOfNulls<String>(devices.size)
-            for (i in devices.indices) {
-                devicesFound[i] = devices[i].name
-            }
+            // Se quiser listar os dispositivos sem nome, mostrar o endereço.
+            val devicesFound = devices.map { it.name ?: it.address }.toTypedArray()
+            // Se não quiser listar os dispositivos sem nome
+            //val devicesFound = devices.filter { !it.name.isNullOrEmpty() }.toTypedArray()
+
             val dialog = AlertDialog.Builder(this)
                 .setTitle(R.string.devices_found)
                 .setSingleChoiceItems(devicesFound, -1) { dialog, which ->
