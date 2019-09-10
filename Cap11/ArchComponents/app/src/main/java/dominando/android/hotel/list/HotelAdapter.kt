@@ -14,7 +14,7 @@ import kotlinx.android.synthetic.main.item_hotel.view.*
 class HotelAdapter(context: Context, hotels: List<Hotel>):
     ArrayAdapter<Hotel>(context, 0, hotels) {
 
-    override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
+    override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         val hotel = getItem(position)
         val viewHolder = if (convertView == null) {
             val view = LayoutInflater.from(parent?.context)

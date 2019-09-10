@@ -75,9 +75,9 @@ class HotelListFragment : ListFragment(),
         }
     }
 
-    override fun onListItemClick(l: ListView?, v: View?, position: Int, id: Long) {
+    override fun onListItemClick(l: ListView, v: View, position: Int, id: Long) {
         super.onListItemClick(l, v, position, id)
-        val hotel = l?.getItemAtPosition(position) as Hotel
+        val hotel = l.getItemAtPosition(position) as Hotel
         viewModel.selectHotel(hotel)
     }
 

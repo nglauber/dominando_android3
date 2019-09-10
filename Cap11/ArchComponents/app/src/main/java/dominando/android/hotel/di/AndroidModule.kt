@@ -6,8 +6,8 @@ import dominando.android.hotel.list.HotelListViewModel
 import dominando.android.hotel.repository.HotelRepository
 import dominando.android.hotel.repository.room.HotelDatabase
 import dominando.android.hotel.repository.room.RoomRepository
-import org.koin.androidx.viewmodel.ext.koin.viewModel
-import org.koin.dsl.module.module
+import org.koin.androidx.viewmodel.dsl.viewModel
+import org.koin.dsl.module
 
 val androidModule = module {
     single { this }
