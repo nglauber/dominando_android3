@@ -81,10 +81,10 @@ class HotelActivity: AppCompatActivity(),
         return super.onOptionsItemSelected(item)
     }
 
-    override fun onSaveInstanceState(outState: Bundle?) {
+    override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
-        outState?.putLong(EXTRA_HOTEL_ID_SELECTED, hotelIdSelected)
-        outState?.putString(EXTRA_SEARCH_TERM, lastSearchTerm)
+        outState.putLong(EXTRA_HOTEL_ID_SELECTED, hotelIdSelected)
+        outState.putString(EXTRA_SEARCH_TERM, lastSearchTerm)
     }
 
     override fun onRestoreInstanceState(savedInstanceState: Bundle?) {

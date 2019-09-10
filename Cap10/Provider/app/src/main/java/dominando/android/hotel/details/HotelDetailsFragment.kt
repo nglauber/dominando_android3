@@ -33,16 +33,16 @@ class HotelDetailsFragment : Fragment(), HotelDetailsView {
         presenter.loadHotelDetails(arguments?.getLong(EXTRA_HOTEL_ID, -1) ?: -1)
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?, inflater: MenuInflater?) {
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
-        inflater?.inflate(R.menu.hotel_details, menu)
-        val shareItem = menu?.findItem(R.id.action_share)
+        inflater.inflate(R.menu.hotel_details, menu)
+        val shareItem = menu.findItem(R.id.action_share)
         shareActionProvider = MenuItemCompat.getActionProvider(shareItem) as? ShareActionProvider
         setShareIntent()
     }
 
-    override fun onOptionsItemSelected(item: MenuItem?): Boolean {
-        if (item?.itemId == R.id.action_edit) {
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.action_edit) {
             HotelFormFragment
                 .newInstance(hotel?.id ?: 0)
                 .open(requireFragmentManager())
