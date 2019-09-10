@@ -34,7 +34,7 @@ class UserProfileFragment : DialogFragment() {
                 logout()
             }
         }
-        dialog.setTitle(R.string.action_user_profile)
+        dialog?.setTitle(R.string.action_user_profile)
     }
     private fun logout() {
         dismiss()
