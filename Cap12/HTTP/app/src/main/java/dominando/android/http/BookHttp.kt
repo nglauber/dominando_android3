@@ -2,6 +2,9 @@ package dominando.android.http
 
 import android.content.Context
 import android.net.ConnectivityManager
+import android.net.Network
+import android.net.NetworkCapabilities
+import android.os.Build
 import com.google.gson.Gson
 import okhttp3.OkHttpClient
 import okhttp3.Request
@@ -40,8 +43,13 @@ object BookHttp {
     }
     fun hasConnection(ctx: Context): Boolean {
         val cm = ctx.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-        val info = cm.activeNetworkInfo
-        return info != null && info.isConnected
+        return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            val capabilities = cm.getNetworkCapabilities(cm.activeNetwork)
+            capabilities?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) ?: false
+        } else {
+            val info = cm.activeNetworkInfo
+            info != null && info.isConnected
+        }
     }
 
     fun loadBooks(): List<Book>? {
