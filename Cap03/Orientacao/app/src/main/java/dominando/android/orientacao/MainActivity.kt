@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         if (savedInstanceState != null) {
-            names = savedInstanceState.getStringArrayList("names_list")
+            names = savedInstanceState.getStringArrayList("names_list") ?: arrayListOf()
         }
         adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, names)
         lstNames.adapter = adapter
@@ -25,8 +25,8 @@ class MainActivity : AppCompatActivity() {
         edtName.text.clear()
         adapter?.notifyDataSetChanged()
     }
-    override fun onSaveInstanceState(outState: Bundle?) {
+    override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
-        outState?.putStringArrayList("names_list", names)
+        outState.putStringArrayList("names_list", names)
     }
 }
