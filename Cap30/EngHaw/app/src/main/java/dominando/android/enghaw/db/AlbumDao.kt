@@ -8,8 +8,8 @@ import androidx.room.*
 interface AlbumDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun save(album: Album): Long
-    @Delete
-    fun delete(album: Album)
+    @Query("DELETE FROM Album WHERE title = :title")
+    fun delete(title: String)
     @Query("SELECT * FROM Album ORDER BY year")
     fun allAlbums(): LiveData<List<Album>>
     @Query("SELECT * FROM Album WHERE title LIKE :title")

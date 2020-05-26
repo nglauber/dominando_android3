@@ -16,7 +16,7 @@ class AlbumRepository(context: Context) {
         album.id = id
     }
     fun delete(album: Album) {
-        dao.delete(album)
+        dao.delete(album.title)
     }
     fun loadFavorites(): LiveData<List<Album>> {
         return dao.allAlbums()

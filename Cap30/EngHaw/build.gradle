@@ -1,17 +1,18 @@
 buildscript {
     ext {
-        appcompat_version = '1.0.2'
+        appcompat_version = '1.1.0'
         constraint_layout_version = '1.1.3'
-        coroutines_version = '1.1.0'
+        coroutines_version = '1.3.7'
         gson_version = '2.8.5'
         gradle_version = '3.3.1'
-        kotlin_version = '1.3.20'
-        livedata_version = '2.0.0'
-        material_design_version = '1.0.0'
+        kotlin_version = '1.3.72'
+        livedata_version = '2.2.0'
+        material_design_version = '1.1.0'
         okhttp_version = '3.11.0'
         palette_version = '1.0.0'
         picasso_version = '2.71828'
-        room_version = '2.0.0'
+        room_version = '2.2.5'
+        swiperefresh_version = '1.0.0'
     }
 
     repositories {
