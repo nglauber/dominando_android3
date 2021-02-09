@@ -7,16 +7,20 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import android.graphics.Color
+import android.media.AudioAttributes
+import android.net.Uri
 import android.os.Build
 import android.os.Handler
 import androidx.annotation.RequiresApi
 import androidx.core.app.*
 import androidx.core.content.ContextCompat
-import androidx.core.os.postDelayed
 
 object NotificationUtils {
     val CHANNEL_ID = "default"
     val URGENT_ID = "urgent"
+
+    fun getSoundUri(context: Context): Uri =
+        Uri.parse("android.resource://${context.packageName}/raw/notification_sound")
 
     @RequiresApi(Build.VERSION_CODES.O)
     private fun createNotificationChannel(context: Context) {
@@ -33,6 +37,11 @@ object NotificationUtils {
             lightColor = Color.GREEN
             enableVibration(true)
             vibrationPattern = longArrayOf(100, 200, 300, 400, 500, 400, 300, 200, 400)
+            setSound(
+                getSoundUri(context), AudioAttributes.Builder()
+                .setUsage(AudioAttributes.USAGE_NOTIFICATION)
+                .build()
+            )
         }
         notificationManager.createNotificationChannel(channel)
     }
@@ -51,7 +60,7 @@ object NotificationUtils {
             .setContentText(context.getString(R.string.notif_text))
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)
             .setColor(ActivityCompat.getColor(context, R.color.colorAccent))
-            .setDefaults(Notification.DEFAULT_ALL)
+            .setSound(getSoundUri(context))
             .setDeleteIntent(deletePit)
         val notificationManager = NotificationManagerCompat.from(context)
         notificationManager.notify(1, notificationBuilder.build())
